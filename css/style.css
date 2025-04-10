@@ -152,8 +152,21 @@ body {
     padding: 120px 0 120px;
 }
 
+.visually-hidden{
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
 
-.list {
+
+.list-initial {
     display: flex;
     gap: 24px;
 }
@@ -281,8 +294,8 @@ body {
 
 
 .section-internet .container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    padding: 32px 16px
+    border 1px solid #e7e9fc;
     border-top: none;
 }
 
