@@ -303,11 +303,9 @@ body {
     margin: 0;
 }
 
-
-
-.section-internet .container {
-    border: 1px solid #e7e9fc;
+.section-container {
     padding: 32px 16px;
+    border: solid 1px #e7e9fc;
     border-top: none;
 }
 
